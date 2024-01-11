@@ -1,0 +1,22 @@
+POST http://localhost:4000/users
+content-type: application/json
+
+{
+    "name": "tes",
+    "email": "tes@gmail.com"
+}
+
+###
+GET http://localhost:4000/users
+
+###
+PATCH http://localhost:4000/users/2
+content-type: application/json
+
+{   
+    "name": "ganti",
+    "email": "genti@gmail.com"
+}
+
+###
+DELETE  http://localhost:4000/users/2
