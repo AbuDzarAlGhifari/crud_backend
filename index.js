@@ -4,9 +4,9 @@ const express = require('express')
 
 const PORT = process.env.PORT || 6000
 
-const userRoutes = require('./routes/users')
+const userRoutes = require('./src/routes/users')
 
-const middlewareLogRequest = require('./middleware/logs')
+const middlewareLogRequest = require('./src/middleware/logs')
 
 
 const app = express()
